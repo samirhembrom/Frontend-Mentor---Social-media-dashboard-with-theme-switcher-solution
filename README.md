@@ -16,8 +16,8 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/samirhembrom/Frontend-Mentor---Social-media-dashboard-with-theme-switcher-solution](https://github.com/samirhembrom/Frontend-Mentor---Social-media-dashboard-with-theme-switcher-solution)
+- Live Site URL: [https://frontend-mentor-social-media-dashboard-with-theme-sw-2b6d83csj.vercel.app/](https://frontend-mentor-social-media-dashboard-with-theme-sw-2b6d83csj.vercel.app/)
 
 ## My process
 
