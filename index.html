@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-color">
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="heading">Social Media Dashboard</h1>
+              <p class="sub-heading">Total Followers: 23,004</p>
+            </div>
+
+            <div class="col">
+              <p class="text">Dark Mode</p>
+              <label for="checkbox" class="switch">
+                <input type="checkbox" id="checkbox" class="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="wrapper-grid-4-card">
+          <div class="card">
+            <ul class="card__details">
+              <li class="card__item">
+                <div class="icon facebook"></div>
+                <span class="text-link">@nathanf</span>
+              </li>
+              <li class="card__item"><span class="text-count">1987</span></li>
+              <li class="card__item">
+                <span class="text-follows">Followers</span>
+              </li>
+              <li class="card__item">
+                <div class="arrow up"></div>
+                <span class="text-today green">12 Today</span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <ul class="card__details">
+              <li class="card__item">
+                <div class="icon twitter"></div>
+                <span class="text-link"> @nathanf </span>
+              </li>
+              <li class="card__item">
+                <span class="text-count"> 1044 </span>
+              </li>
+              <li class="card__item">
+                <span class="text-follows">Followers</span>
+              </li>
+              <li class="card__item">
+                <div class="arrow up"></div>
+                <span class="text-today green"> 99 Today </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <ul class="card__details">
+              <li class="card__item">
+                <div class="icon instagram"></div>
+                <span class="text-link"> @realnathanf </span>
+              </li>
+              <li class="card__item"><span class="text-count">11k</span></li>
+              <li class="card__item">
+                <span class="text-follows">Followers</span>
+              </li>
+              <li class="card__item">
+                <div class="arrow up"></div>
+                <span class="text-today green">1099 Today</span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <ul class="card__details">
+              <li class="card__item">
+                <div class="icon youtube"></div>
+                <span class="text-link">Nathan F.</span>
+              </li>
+              <li class="card__item"><span class="text-count">8239</span></li>
+              <li class="card__item">
+                <span class="text-follows">Subscribers</span>
+              </li>
+              <li class="card__item">
+                <div class="arrow down"></div>
+                <span class="text-today red">144 Today</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h2 class="heading-2">Overview - Today</h2>
+        </div>
+        <div class="wrapper-grid-8-card">
+          <div class="card-rectangle">
+            <ul class="card-rectangle__details">
+              <li class="card-rectangle__details__item">
+                <span class="action-text">Page Views</span>
+                <div class="icon facebook"></div>
+              </li>
+              <li class="card-rectangle__details__item">
+                <span class="view-count">87</span>
+                <span class="percentage-text green">
+                  <div class="arrow up"></div>
+                  3%
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card-rectangle">
+            <ul class="card-rectangle__details">
+              <li class="card-rectangle__details__item">
+                <span class="action-text">Likes</span>
+                <div class="icon facebook"></div>
+              </li>
+              <li class="card-rectangle__details__item">
+                <span class="view-count">52</span>
+                <span class="percentage-text red">
+                  <div class="arrow down"></div>
+                  2%
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card-rectangle">
+            <ul class="card-rectangle__details">
+              <li class="card-rectangle__details__item">
+                <span class="action-text">Likes</span>
+                <div class="icon instagram"></div>
+              </li>
+              <li class="card-rectangle__details__item">
+                <span class="view-count">5462</span>
+                <span class="percentage-text red">
+                  <div class="arrow up"></div>
+                  2257%
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card-rectangle">
+            <ul class="card-rectangle__details">
+              <li class="card-rectangle__details__item">
+                <span class="action-text">Profile Views</span>
+                <div class="icon instagram"></div>
+              </li>
+              <li class="card-rectangle__details__item">
+                <span class="view-count">52k</span>
+                <span class="percentage-text green">
+                  <div class="arrow up"></div>
+                  1375%
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card-rectangle">
+            <ul class="card-rectangle__details">
+              <li class="card-rectangle__details__item">
+                <span class="action-text">Retweets</span>
+                <div class="icon twitter"></div>
+              </li>
+              <li class="card-rectangle__details__item">
+                <span class="view-count">117</span>
+                <span class="percentage-text green">
+                  <div class="arrow up"></div>
+                  303%
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card-rectangle">
+            <ul class="card-rectangle__details">
+              <li class="card-rectangle__details__item">
+                <span class="action-text">Likes</span>
+                <div class="icon twitter"></div>
+              </li>
+              <li class="card-rectangle__details__item">
+                <span class="view-count">507</span>
+                <span class="percentage-text green">
+                  <div class="arrow up"></div>
+                  553%
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card-rectangle">
+            <ul class="card-rectangle__details">
+              <li class="card-rectangle__details__item">
+                <span class="action-text">Likes</span>
+                <div class="icon youtube"></div>
+              </li>
+              <li class="card-rectangle__details__item">
+                <span class="view-count">107</span>
+                <span class="percentage-text red">
+                  <div class="arrow down"></div>
+                  19%
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card-rectangle">
+            <ul class="card-rectangle__details">
+              <li class="card-rectangle__details__item">
+                <span class="action-text">Total Views</span>
+                <div class="icon youtube"></div>
+              </li>
+              <li class="card-rectangle__details__item">
+                <span class="view-count">1407</span>
+                <span class="percentage-text red">
+                  <div class="icon down"></div>
+                  12%
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/samirhembrom">Samir</a>.
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
