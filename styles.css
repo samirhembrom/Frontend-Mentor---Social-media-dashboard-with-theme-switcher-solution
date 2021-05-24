@@ -288,6 +288,7 @@ main {
   text-align: center;
   padding: 2.5em 0 2em;
   cursor: pointer;
+  transition: background-color 1s ease-in-out;
 }
 
 .card:hover {
@@ -357,6 +358,7 @@ main {
   padding: 2em;
   border-radius: 6px;
   cursor: pointer;
+  transition: background-color 1s ease-in-out;
 }
 
 .card-rectangle:hover {
